@@ -1,0 +1,10 @@
+libdir=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib
+includedir=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include
+
+Name: libcjson
+Version: 1.7.14
+Description: Ultralightweight JSON parser in ANSI C
+URL: https://github.com/DaveGamble/cJSON
+Libs: -L${libdir} -lcjson
+Libs.private: -lm
+Cflags: -I${includedir} -I${includedir}/cjson

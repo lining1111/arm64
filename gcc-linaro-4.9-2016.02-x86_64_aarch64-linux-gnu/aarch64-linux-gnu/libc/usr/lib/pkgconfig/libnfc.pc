@@ -1,0 +1,11 @@
+prefix=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr
+exec_prefix=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr
+libdir=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib
+includedir=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include
+
+Name: libnfc
+Description: Near Field Communication (NFC) library
+Version: 1.8.0
+Requires: 
+Libs: -L${libdir} -lnfc
+Cflags: -I${includedir}
