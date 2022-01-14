@@ -1,0 +1,14 @@
+prefix=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr
+exec_prefix=${prefix}
+libdir=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib
+includedir=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 57.18.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -lm
+Cflags: -I${includedir}
