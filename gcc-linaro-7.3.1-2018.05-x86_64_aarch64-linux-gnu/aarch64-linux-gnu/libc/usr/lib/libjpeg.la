@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname=''
+dlname='libjpeg.so.9'
 
 # Names of this library.
-library_names=''
+library_names='libjpeg.so.9.5.0 libjpeg.so.9 libjpeg.so'
 
 # The name of the static archive.
 old_library='libjpeg.a'
