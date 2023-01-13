@@ -1,4 +1,4 @@
-prefix=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr
+prefix=/usr/local/arm64/gcc-linaro-4.9-2016.02-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr
 exec_prefix=${prefix}
 includedir=${prefix}/include
 libdir=${exec_prefix}/lib
